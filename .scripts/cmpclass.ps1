@@ -24,6 +24,8 @@ function CompareModel {
         $PsNodesMap[$PsNode.Identifier.value] = $PsNode
     }
 
+    #add a test line
+
     foreach ($CsNode in $CsNodes)
     {
         $CsClassName = $CsNode.Identifier.value

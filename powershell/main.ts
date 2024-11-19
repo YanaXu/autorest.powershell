@@ -25,6 +25,7 @@ import { createSdkInlinedPropertiesPlugin } from './plugins/sdk-create-inline-pr
 require('source-map-support').install();
 
 export async function main() {
+  // add a comment for test
   const pluginHost = new AutoRestExtension();
   // Following are plugins moved from remodeler
   pluginHost.Add('tweakm4codemodel', tweakM4ModelPlugin);

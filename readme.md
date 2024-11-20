@@ -5,6 +5,8 @@
 
 See [Using AutoRest PowerShell ](docs/readme.md) for examples, etc.
 
+Add a test line.
+
 
 # Contributing
 
